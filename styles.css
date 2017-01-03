@@ -1,0 +1,55 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.color {
+  width: 100%;
+  height: 25vh;
+  filter: brightness(50%);
+  transition: all 200ms ease-in-out;
+}
+
+.container {
+  display: none;
+}
+
+.color:hover {
+  cursor: pointer;
+}
+
+#red {
+  background: red;
+}
+
+#blue {
+  background: blue;
+}
+
+#green {
+  background: green;
+}
+
+#yellow {
+  background: yellow;
+}
+
+.top, .bottom {
+  display: flex;
+}
+
+.active {
+  filter: brightness(100%);
+}
+
+
+#lose {
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  background: black;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
